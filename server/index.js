@@ -23,7 +23,7 @@ const {
 
 //SET UP SERVER
 server.listen(3000, () => {
-  console.log("Server Started");
+  console.log("Server Iniciado");
 });
 
 server.use(bodyParser.json(), CORS());

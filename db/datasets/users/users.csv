@@ -1,0 +1,5 @@
+username,password,firstname,lastname,address,email,phone_number,is_admin
+goemca,holamundo,Gonzalo,Cano,Av. Siempre Viva 1234,gonzalocano@gmail.com,3513472994,1
+simon,elloco22,Simon,Carpi,Nva Cordoba,simon@yahoo.com,17707368031,0
+kingarturo,elreyaruturo,Arturo,Rivas,Santa Fe 225,kingarturo@live.com,123987654,1
+lalotucan,superSegura,Lautaro,Rojas,Lavalleja 321,lautarojas@hotmail.com,351234432,0
