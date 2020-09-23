@@ -1,0 +1,33 @@
+{
+  "name": "delilah-resto",
+  "version": "1.1.0",
+  "description": "Proyecto Delilah Resto para el curso de DWFS de Acamica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goemca/delilah-resto.git"
+  },
+  "keywords": [
+    "delilah",
+    "resto",
+    "acamica"
+  ],
+  "author": "Gonzalo Cano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goemca/delilah-resto/issues"
+  },
+  "homepage": "https://github.com/goemca/delilah-resto#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^2.3.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
