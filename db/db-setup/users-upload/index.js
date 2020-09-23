@@ -4,7 +4,7 @@ const fs = require("fs");
 const getStream = require("get-stream");
 
 //DATABASE
-const { insertQuery, sequelize, useQuery } = require("../../../db");
+const { insertQuery, sequelize, useQuery } = require("../..");
 
 //DATASETS
 const usersDs = "../datasets/users/users.csv";

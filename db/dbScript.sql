@@ -19,7 +19,7 @@ CREATE TABLE `users` (
 
 -- Insert data to table `users`
 LOCK TABLES `users` WRITE;
-INSERT INTO `users` VALUES (1,'alemax95','holaManola','Alejandro','Frenkel','Cochabamba 2534','ale@gmail.com','113456748',1),(2,'Bret','doggLover','Leanne','Graham','Kulas Light Apt. 556','bret@yahoo.com','17707368031',0),(3,'Ervin_h','dancingInTheRain','Ervin','Howell',' Victor Plains Suite 879','hervin@live.com','106926593',1),(4,'marce25','superContrasenia','Marcelo','Rivas','Lavalle 321','marce_rivas@enterprise.com','106926593',0);
+INSERT INTO `users` VALUES (1,'goemca','holamundo','Gonzalo','Cano','Av. Siempre Viva 1234','gonzalocano@gmail.com','3513472994',1),(2,'simo','elloco22','Simon','Carpi ','Estrada Nva Cordoba','simon@yahoo.com','17707368031',0),(3,'kingarturo','elreyarturo','Arturo','Rivas','Santa Fe 225','kigarturo@live.com','123987654',1),(4,'lalotucan','superSegura','Lautaro','Rojas','Lavalleja 321','lautarojas@hotmail.com','351234432',0);
 UNLOCK TABLES;
 
 -- Table structure for table `orders`
@@ -52,7 +52,7 @@ CREATE TABLE `products` (
 
 -- Insert data to table `products`
 LOCK TABLES `products` WRITE;
-INSERT INTO `products` VALUES (1,'Key Lime Pie',250,'[https://www.themealdb.com/images/media/meals/qpqtuu1511386216.jpg]'),(2,'Recheado Masala Fish',480,'[https://www.themealdb.com/images/media/meals/uwxusv1487344500.jpg]'),(3,'Kentucky Fried Chicken',320,'[https://www.themealdb.com/images/media/meals/xqusqy1487348868.jpg]'),(4,'Duck Confit',390,'[https://www.themealdb.com/images/media/meals/wvpvsu1511786158.jpg]'),(5,'Apple Tarts',230,'[https://www.themealdb.com/images/media/meals/qtqwwu1511792650.jpg]'),(6,'Salmon Prawn Risotto',500,'[https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg]'),(7,'Three-cheese souffles',270,'[https://www.themealdb.com/images/media/meals/sxwquu1511793428.jpg]'),(8,'Spaghetti Bolognese',290,'[https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg]'),(9,'BBQ Pork Burger',360,'[https://www.themealdb.com/images/media/meals/atd5sh1583188467.jpg]'),(10,'Tandoori chicken',430,'[https://www.themealdb.com/images/media/meals/qptpvt1487339892.jpg]');
+INSERT INTO `products` VALUES (1,'Lime Pie',250,'[https://www.themealdb.com/images/media/meals/qpqtuu1511386216.jpg]'),(2,'Pescado Asado',480,'[https://www.themealdb.com/images/media/meals/uwxusv1487344500.jpg]'),(3,'Pollo Frito',320,'[https://www.themealdb.com/images/media/meals/xqusqy1487348868.jpg]'),(4,'Tarta de Manzana',230,'[https://www.themealdb.com/images/media/meals/qtqwwu1511792650.jpg]'),(5,'Salmon al Risotto',500,'[https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg]'),(6,'Souffles de Quesos',270,'[https://www.themealdb.com/images/media/meals/sxwquu1511793428.jpg]'),(7,'Spaghetti Bolognese',290,'[https://www.themealdb.com/images/media/meals/sutysw1468247559.jpg]'),(8,'Hamburguesas BBQ',360,'[https://www.themealdb.com/images/media/meals/atd5sh1583188467.jpg]'),(9,'Pollo Tandoori',430,'[https://www.themealdb.com/images/media/meals/qptpvt1487339892.jpg]');
 UNLOCK TABLES;
 
 
