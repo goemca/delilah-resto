@@ -68,7 +68,7 @@ async function registerUser(req, res, next) {
       next(new Error(err));
     }
   } else {
-    res.status(400).json("Argumentos faltantes");
+    res.status(400).json("Missing Arguments");
   }
 }
 
@@ -81,10 +81,10 @@ async function validateExistingUser(req, res, next) {
       if (!dbUsers) {
         next();
       } else {
-        res.status(409).json("El username ya esta en uso");
+        res.status(409).json("Username already in use");
       }
     } else {
-      res.status(409).json("El user ya existe");
+      res.status(409).json("User already exists");
     }
   } catch (err) {
     next(new Error(err));

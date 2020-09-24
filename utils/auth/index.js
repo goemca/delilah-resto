@@ -1,7 +1,6 @@
-//AUTH
+
 const { JWT, signature } = require("../../auth");
 
-// UTILS
 const { findUserByUsername } = require("../users");
 
 function validateAuth(req, res, next) {
@@ -12,7 +11,7 @@ function validateAuth(req, res, next) {
     req.is_admin = is_admin;
     next();
   } else {
-    res.status(403).json("Acceso Denegado");
+    res.status(403).json("Forbidden");
   }
 }
 
@@ -29,10 +28,10 @@ async function validateCredentials(req, res, next) {
         req.jwtToken = token;
         next();
       } else {
-        res.status(400).json("Password incorecto");
+        res.status(400).json("Wrong password");
       }
     } else {
-      res.status(400).json("usuario invalido");
+      res.status(400).json("Invalid Username");
     }
   } catch (err) {
     next(new Error(err));

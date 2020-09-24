@@ -1,0 +1,274 @@
+{
+	"info": {
+		"_postman_id": "23aa589a-550d-4513-9f41-0f491b2460bf",
+		"name": "Delilah Resto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/v1/products/6",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImxhbG90dWNhbiIsImlzX2FkbWluIjowLCJpYXQiOjE2MDA4OTUxOTIsImV4cCI6MTYwMDg5NjA5Mn0.yUKSd-BTIgPc-9lUgiOVz7v8IcNV2OBlGjw3iCcsU0o",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_name\": \"Souffles de Dos Quesos\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/v1/products/6",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"products",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/v1/users",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdvZW1jYSIsImlzX2FkbWluIjoxLCJpYXQiOjE2MDA4OTUyMTcsImV4cCI6MTYwMDg5NjExN30.PAyRCw7ntdlTJkjH2Gi0LGHo_SmnNkNwRZPbinOgcAQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/v1/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/v1/orders/1",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdvZW1jYSIsImlzX2FkbWluIjoxLCJpYXQiOjE2MDA4OTM3MzgsImV4cCI6MTYwMDg5NDYzOH0.2jQ1mNKFXTwCW2L0JhPVb0ZjcT7XSpt5UByX7OUGPY4",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"status\" : \"preparing\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/v1/orders/1",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"orders",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/v1/users/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\" : \"lalotucan\",\n    \"password\" : \"superSegura\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/users/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/v1/orders",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InB1bHNlIiwiaXNfYWRtaW4iOjEsImlhdCI6MTYwMDgzNTU1NywiZXhwIjoxNjAwODM2NDU3fQ.9nm2P3I0GtOeIcRXBaSdqFuzZWjJB1iu1nRuY35dTVw",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"username\": \"kingarturo\",\n  \"products\": [\n    {\n      \"productId\": 8,\n      \"quantity\": 4\n    }\n  ],\n  \"payment_method\": \"cash\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/orders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/v1/orders",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdvZW1jYSIsImlzX2FkbWluIjoxLCJpYXQiOjE2MDA4OTM3MzgsImV4cCI6MTYwMDg5NDYzOH0.2jQ1mNKFXTwCW2L0JhPVb0ZjcT7XSpt5UByX7OUGPY4",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/v1/orders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/v1/users/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\" : \"goemca\",\n    \"password\" : \"holamundo\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/v1/users/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/v1/products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/v1/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/v1/users",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdvZW1jYSIsImlzX2FkbWluIjoxLCJpYXQiOjE2MDA4MzUzNzMsImV4cCI6MTYwMDgzNjI3M30.p9cviel5UGv98DFCB7UJFOc7qBBdJH75WGN2obUmoEs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/v1/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"v1",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
